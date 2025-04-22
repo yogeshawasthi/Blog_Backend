@@ -12,7 +12,7 @@ connectDB(); // Connect to MongoDB
 
 // CORS configuration to allow credentials (cookies)
 app.use(cors({
-  origin: "http://localhost:5173" , // allow your frontend
+  origin: "http://localhost:5173" || "https://blogfrontend-theta-ten.vercel.app", // allow your frontend
   credentials: true // if you're using cookies or sessions
 }));
 
